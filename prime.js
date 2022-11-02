@@ -1,15 +1,15 @@
 
-function prime (num){
-    var count=0;
-    for (let i=1;i<=num;i++){
-        if(num%2==0){
-            count++
+function prime (number){
+    var factor=0;
+    for (let i=1;i<=number;i++){
+        if(number%i==0){
+            factor++
         }
     }
-    if(count==2){
-        console.log (true)
+    if(factor==2){
+        console.log (i,"is a prime")
     }else{
-        console.log(false)
+        console.log(i,"not a prime")
     }
 }
 for (let i=1;i<=13;i++){
