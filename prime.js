@@ -1,4 +1,3 @@
-
 function prime (number){
     var factor=0;
     for (let i=1;i<=number;i++){
@@ -10,6 +9,7 @@ function prime (number){
         console.log (i,"is a prime")
     }else{
         console.log(i,"not a prime")
+
     }
 }
 for (let i=1;i<=13;i++){
